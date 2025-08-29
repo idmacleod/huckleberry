@@ -7,21 +7,11 @@ html,
 body {
   margin: 0;
   padding: 0;
-  /* height: 100%; */
 }
 
 header { 
   min-height: 50%;
   border-bottom: 0.5rem solid hsl(0, 0%, 60%);
-}
-
-strong {
-  color: hsl(160deg, 100%, 30%)
-}
-
-main {
-  min-height: 50%;
-  background-color: hsl(0deg, 0%, 40%);
 }
 
 .max-width-wrapper {
@@ -31,22 +21,34 @@ main {
 }
 
 .intro-chunk {
-  padding: 1rem 0.5rem;
+  max-width: 50%;
+  padding: 16px 8px;
 }
 
 .title {
+  padding-top: 96px;
+}
 
+strong {
+  color: hsl(160deg, 100%, 30%)
+}
+
+main {
+  min-height: 50%;
+  padding-top: 96px;
+  background-color: hsl(0deg, 0%, 40%);
 }
 
 .card {
-  padding: 1rem 0.5rem;
+  padding: 16px 8px;
   background-color: hsl(0deg, 0%, 100%);
   border-bottom: 0.5rem solid hsl(0, 0%, 60%);
 }
 
 .indented-heading {
+  margin-left: -16px;
   width: fit-content;
-  padding: 1rem 0.5rem;
+  padding: 16px 8px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 0.5rem solid hsl(45, 100%, 40%)
 }
